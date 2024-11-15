@@ -48,17 +48,11 @@ a {
     padding: 5px 10px;
     font-size: 24px;
 }
-.header-nav {
-
-}
 .header-nav-list {
     display: flex;
 }
 .header-nav-list li {
     padding-left: 20px;
-}
-.header-nav-list a {
-
 }
 
 /* メインビジュアル */
@@ -74,16 +68,10 @@ a {
 .self-introduction {
     padding: 0 4%;
 }
-.common-section-title {
-
-}
 .self-introduction-content {
     display: flex;
     justify-content: center;
     gap: 0 50px;
-}
-.textbox {
-
 }
 .name {
     /* font-weight: bold;
@@ -104,15 +92,6 @@ a {
 }
 
 /* プロフィール */
-.profile {
-
-}
-.common-section-title {
-
-}
-.common-section-title h2 {
-
-}
 .profile-contents {
     display: flex;
     justify-content: space-between;
@@ -148,7 +127,6 @@ a {
     border-bottom: 1px solid #000;
     padding-bottom: 10px;
 }
-
 .copy-write {
     font-size: 16px;
 }
