@@ -1,11 +1,9 @@
 /* 全共通設定 */
-
 a {
     color: #000;
     text-decoration: none;
 }
 
-/* PCサイズ */
 /* PCサイズの共通部分 */
 .container {
     max-width: 960px;
@@ -13,15 +11,12 @@ a {
     margin: 0 auto;
     padding: 0 4%;
 }
-
 .main-image, .self-introduction, .profile {
     margin-bottom: 100px;
 }
-
 .common-section-title {
     text-align: center;
 }
-
 .common-section-title h2 {
     font-size: 32px;
     display: inline-block;
@@ -29,7 +24,6 @@ a {
     padding-bottom: 5px;
     margin-bottom: 40px;
 }
-
 .common-text {
     font-weight: bold;
     margin-bottom: 20px;
@@ -64,7 +58,6 @@ a {
 }
 
 /* 自己紹介 */
-
 .self-introduction {
     padding: 0 4%;
 }
@@ -72,10 +65,6 @@ a {
     display: flex;
     justify-content: center;
     gap: 0 50px;
-}
-.name {
-    /* font-weight: bold;
-    margin-bottom: 20px; */
 }
 .description {
     line-height: 25px;
@@ -109,17 +98,12 @@ a {
 .profile-description {
     margin-bottom: 20px;
 }
-.profile-image {
-    /* width: 64%;
-    height: 42.4%; */
-}
 .profile-image img {
     width: 100%;
     max-width: 150px;
     max-width: 640px;
     height: auto;
 }
-
 
 /* フッター */
 .footer {
