@@ -4,12 +4,19 @@ a {
     text-decoration: none;
 }
 
+/* PCサイズ */
 /* PCサイズの共通部分 */
 .container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
     padding: 0 4%;
+}
+.main-image, .self-introduction, .profile {
+    margin-bottom: 100px;
+}
+.common-section-title {
+    text-align: center;
 }
 .main-image, .self-introduction, .profile {
     margin-bottom: 100px;
@@ -58,6 +65,10 @@ a {
 }
 
 /* 自己紹介 */
+.self-introduction {
+    padding: 0 4%;
+}
+
 .self-introduction {
     padding: 0 4%;
 }
